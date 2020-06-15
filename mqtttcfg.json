@@ -1,0 +1,21 @@
+{
+  "_comment": "COLORS: R, G, B ; add or remove *rotate_upside_down* if needed for your LCD screen",
+  
+  "locale": "en_US.UTF-8",
+  "units": "metric",
+  "MQTTbroker_url": "logstore02.home.net",
+  "MQTTbroker_port": 1883,
+
+  "SDL_FBDEV": "/dev/fb1",
+  "display": [480, 320],
+  "rotate_upside_down": "",
+  
+  "font_name": "/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf",
+  "fontsize_title": 38,
+  "fontcolor_title": [153, 204, 255],
+  "fontsize_msg": 24,
+  "fontcolor_msg": [255, 250, 205],
+  "screen_bkg": [102, 102, 0],
+  "MQTT_max_messages": 10,
+  "MQTT_window_bottom": 280
+}
