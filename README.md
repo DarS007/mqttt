@@ -6,3 +6,8 @@ Therefore here you go... **MQTT Terminal** is a small, relatively dumb, standalo
 
 ## HARDWARE
 *Raspberry Pi Zero W* is perhaps the most optimal (cost and performance) platform. It's even too beefy for such easy task, but come on... You can spend $9 for RPi or $3 on ESP8266 - small difference for a singular DIY quantities. And with RPi you have a comfort of full Linux distribution, fully functional Pythin, flawless WiFi, etc.
+
+
+
+## TO DO
+- MQTT authentication - it is currently lacking, as the code was developed for in-house usage where local MQTT broker was open to everyone (in the subnet)
