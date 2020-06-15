@@ -3,7 +3,7 @@
   
   "locale": "en_US.UTF-8",
   "units": "metric",
-  "MQTTbroker_url": "logstore02.home.net",
+  "MQTTbroker_url": "IPorURL.YOUR.MQTT.BROKER",
   "MQTTbroker_port": 1883,
 
   "SDL_FBDEV": "/dev/fb1",
