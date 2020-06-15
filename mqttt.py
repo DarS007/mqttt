@@ -55,9 +55,9 @@ timer_thread = None
 
 try:
     # load config file
-    file = "/etc/MQTTtermcfg.json"
+    file = "/etc/mqtttcfg.json"
     if not os.path.exists(file):
-        file = "{}/MQTTtermcfg.json".format(sys.path[0])
+        file = "{}/mqtttcfg.json".format(sys.path[0])
     with open(file, "r") as f:
         config = json.loads(f.read())
     logging.info("config %s loaded", file)
