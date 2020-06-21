@@ -10,10 +10,13 @@ Therefore here you go... **MQTT Terminal** is a small, relatively dumb, standalo
 For display, you can use any small LCD screen HAT you wish. It has to work with Raspberry Pi, of course. But this is the only limitation. **MQTT Terminal** uses *framebuffer* for graphics so it DOES NOT need X Server to be installed. When selecting OS distribution for your Raspberry Pi, do not install fully featured *desktop* version. Choose *server* flavor. It is much lighter anyway.
 
 ## INSTALLATION
-On Linux, install Paho MQTT Python client library and some fonts (assuming you run headless server without X Server and without any fancy fonts, incl. system fonts)
+On Linux, install Paho MQTT Python client library and some fonts (assuming you run headless server without X Server and without any fancy fonts, incl. system fonts). Then just clone this repository and run the code. I propose to make './bin' directory to keep this code there.
 ```
 > sudo pip3 install paho-mqtt
 > sudo apt-get install ttf-mscorefonts-installer fonts-liberation
+> mkdir bin
+> cd bin
+> git clone 
 ```
 
 ## TO DO
