@@ -39,7 +39,7 @@ logging.basicConfig(level=logging.DEBUG if args.debug else logging.INFO,
 if args.fonts:
     print("=====================================================================")
     print("List of System Fonts that are accessible to Pygame.")
-    print("You can configure this app (via 'MQTTtermcfg.json' file) to use one of these fonts:")
+    print("You can configure this app (via 'mqtttcfg.json' file) to use one of these fonts:")
     print(pygame.font.get_fonts())
     print("Please note that Linux systems with framebuffer LCDs and without X Server (without desktop env)")
     print("do NOT have any System Fonts installed/available. But you can install TTF fonts on your own!")
@@ -87,9 +87,9 @@ background = pygame.Surface(screen.get_size())
 background.fill(config["screen_bkg"])
 
 # define the font objects for title and MQTT messages
-# (select non-System Font for framebuffer LCD because such system, most likely, 
+# (selects non-System Font for framebuffer LCD because such system, most likely, 
 #  does NOT HAVE any System Font installed)
-if config["SDL_FBDEV"]:
+if "SDL_FBDEV" in config:
     titlefont = pygame.font.Font(config["font_name"], config["fontsize_title"])
     msgfont = pygame.font.Font(config["font_name"], config["fontsize_msg"])
     msgfont_m = pygame.font.Font(config["font_name"], int(config["fontsize_msg"]*0.8))
