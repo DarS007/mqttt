@@ -9,6 +9,8 @@ Screenshots of **MQTT Terminal** with different fonts and sizes:
 | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.01-arial.png" width="240"> | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.02-noteserif.png" width="240"> | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.03-noteserif-smaller.png" width="240"> |
 
 You can configure:
+* display type (usually 3.5" LCD via video framebuffer, but the code can be also run on Linux and MS Windows desktops, etc.)
+* LCD size (tested with 3.5" 480x320 LCD, but the code will work for smaller and bigger displays)
 * font type (*font name* for system fonts, *font location* for other fonts)
 * font size (separately for *title* and for *MQTT messages*)
 * colors for background and message font
