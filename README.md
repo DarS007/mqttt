@@ -8,6 +8,13 @@ Screenshots of **MQTT Terminal** with different fonts and sizes:
 
 | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.01-arial.png" width="240"> | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.02-noteserif.png" width="240"> | <img src="https://github.com/DarS007/mqttt/blob/master/PICTURES/mqttt_screenshot.03-noteserif-smaller.png" width="240"> |
 
+You can configure:
+* font type (*font name* for system fonts, *font location* for other fonts)
+* font size (separately for *title* and for *MQTT messages*)
+* colors for background and message font
+* number of displayed MQTT messages (one message equals one line of text), usually between 8 and 15
+* rotation 'upside down' (180 degree) for reverted LCD screens
+
 ## HARDWARE
 *Raspberry Pi Zero W* is perhaps the most optimal (cost and performance) platform. It's even too beefy for such easy task, but come on... You can spend $9 for RPi or $3 on ESP8266 - small difference for a singular DIY quantities. And with RPi you have a comfort of full Linux distribution, fully functional Python, flawless WiFi, etc. 
 
